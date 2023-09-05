@@ -1,0 +1,14 @@
+A la maison
+	1- iNSTALLER NODE.JS
+	2- Ouvrir avec VS Code
+	3- Terminal
+		- npm i
+		- npm start
+
+	***Important qunad deplacer stack -> ne pas inclure le dossier node_modules.
+	
+	***comprendre les normes de la semantique HTML5. exemples: <nav> <ul> <li> <a>, <nav>, <a>, <section class=hero>...
+	
+	<nav> <ul> 4*<li> <a>
+
+S02-----------------------------

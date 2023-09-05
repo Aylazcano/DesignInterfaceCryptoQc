@@ -11,3 +11,20 @@ a {
         color: var(--color-secondary);
     }
 }
+
+.button,
+.button2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--color-objets-fondsFonces-couleurFoncee);
+    /* offset-x | offset-y | blur-radius | spread-radius | color
+    Aller voir un box-shadow generator*/
+    box-shadow: 6px 9px 15px 5px rgba(0, 13, 81, 0.2);
+
+    padding: 25px;
+    border-radius: 12px;
+
+    color: var(--color-white);
+}
