@@ -1,7 +1,7 @@
 A la maison
 	1- iNSTALLER NODE.JS
-	2- Ouvrir avec VS Code
-	3- Terminal
+		- Ouvrir avec VS Code
+		- Terminal
 		- npm i
 		- npm start
 
