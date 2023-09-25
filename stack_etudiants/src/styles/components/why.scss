@@ -1,0 +1,47 @@
+.why {
+    padding: var(--spacing-x1) 0;
+    background-color: var(--color-fond-pale);
+
+    .cards {
+        margin-top: 56px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    .card {
+        /*width:33.3%;*/ //Pas besoin avec les grids
+
+        background-color: var(--color-white);
+
+        padding: var (--spacing-lger);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-betveen;
+        align-items: center;
+
+        text-align: center;
+        color: var(--Color-typo-pale);
+
+        h3 {
+            padding-top: 36px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .card__icon {
+            width: 120px;
+            height: 120px;
+            background: var(--Color-degrade-bouton-fonce);
+            border-radius: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
